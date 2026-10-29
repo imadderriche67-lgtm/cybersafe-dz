@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: #08111f;
+  color: #e8f0ff;
+  font-family: Arial, sans-serif;
+  line-height: 1.8;
+}
+
+header {
+  padding: 22px 16px;
+  text-align: center;
+  background: #101d30;
+  border-bottom: 1px solid #203751;
+}
+
+.logo {
+  font-size: 27px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.logo span {
+  color: #35e0bd;
+}
+
+header p {
+  margin: 4px 0 0;
+  color: #a7b8d0;
+}
+
+main {
+  width: 100%;
+  max-width: 850px;
+  margin: auto;
+  padding: 20px 16px;
+}
+
+.hero {
+  padding: 35px 20px;
+  border-radius: 18px;
+  background: linear-gradient(145deg, #132b42, #102039);
+  border: 1px solid #244b65;
+}
+
+.tag {
+  color: #35e0bd;
+  font-size: 14px;
+}
+
+h1 {
+  font-size: 32px;
+  line-height: 1.4;
+}
+
+.hero p,
+.card p,
+.notice p {
+  color: #b9c8dc;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 14px;
+  padding: 10px 22px;
+  border-radius: 9px;
+  background: #35e0bd;
+  color: #08111f;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#courses {
+  padding-top: 20px;
+}
+
+.card {
+  margin: 14px 0;
+  padding: 18px;
+  background: #101d30;
+  border: 1px solid #24374e;
+  border-radius: 13px;
+}
+
+.card h3 {
+  margin-top: 0;
+  color: #35e0bd;
+}
+
+.notice {
+  margin-top: 25px;
+  padding: 20px;
+  border-right: 4px solid #35e0bd;
+  background: #101d30;
+  border-radius: 10px;
+}
+
+footer {
+  padding: 20px 12px;
+  text-align: center;
+  color: #93a6c0;
+  background: #101d30;
+  font-size: 13px;
+}
+
+@media (max-width: 400px) {
+  h1 {
+    font-size: 26px;
+  }
+
+  .hero {
+    padding: 25px 16px;
+  }
+}
